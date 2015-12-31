@@ -57,6 +57,7 @@ public class MyAsync extends AsyncTask<String, Integer, String> implements Dialo
         return resultCode;
     }
 
+
     @Override protected void onProgressUpdate(Integer... values) { }
     @Override protected void onPostExecute(String result) {
         dialog.dismiss();
